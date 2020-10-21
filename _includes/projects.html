@@ -1,0 +1,132 @@
+<section class="thirteen columns">
+    <h1>Work-Experience/Projects</h1><br/>
+    <article>
+        <header>
+            <h1>크로키닷컴(지그재그) 서버 백엔드 인턴</h1>
+            <span><time>2020.02.03 ~ 2020.08.01 </time></span><br/>
+        </header>
+        <p><br/>
+            <h5><u>지그재그에서 서버개발 인턴생활</u></h5><br/>
+            <em>
+                <ul>
+                    <li>- 검수시스템 처음부터 작성 및 유지보수</li>
+                        <ol>
+                            <li>kotlin, jooq, graphql 등 신기술 발빠르게 익히고 프로젝트에 활용</li>
+                            <li>상품 검수에 대한 서버 api모두 작성 및 유지보수(실서버에 배포)</li>
+                            <li>사용자에게 피드백을 받아 시스템 기능 향상</li>
+                        </ol>
+                    </br>
+                    <li>- Java Object Oriented Querying(jooq)를 이용한 쿼리튜닝</li>
+                        <ol>
+                            <li>디비에 적재하는 방식이 느려 쿼리튜닝: 동일환경에서 40초 -> 5초</li>
+                            <li>sql쿼리 정리 및 인덱스 정리</li>
+                            <li>위에 쿼리 정리하다가 비효율적인 배치성 업데이트 쿼리발견 후 개선: 85000ms~90000ms => 300~400ms </li>
+                        </ol>
+                    </br>
+                    <li>- JMETER를 통한 부하테스팅</li>
+                        <ol>
+                            <li>방어코드가 있었는데 실행이 되지 않아 서비스가 다운됨</li>
+                            <li>방어코드가 제대로 작동하는지 확인하기 위해 부하테스트로 확인</li>
+                            <li>1. db connection 60초이상 강제로 대기 2. redis error 등으로 검사</li>
+                            <li>postman이나 nGrinder는 다수의 async request가 동작하지 않아 jmeter선택</li>
+                            <li>jmeter사용법 학습 후 테스트 실행</li>
+                        </ol>
+                    </br>
+                    <li>- 그 밖에 주요한 활동</li>
+                        <ol>
+                            <li>다양하고 좋은 테스트코드를 짤 수 있도록 자발적으로 junit4=>junit5업그레이드</li>
+                            <li>master, slave db관련 jooq설정 스프링 어노테이션으로 설정 할 수 있게 지원</li>
+                            <li>legacy인 coffe script, type script로 변환</li>
+                        </ol>
+                </ul>
+            </em>
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>미니게임천국</h1>
+            <span><time>2019.11.26 ~ 2019.12.27</time></span><br/>
+            <span><a href='https://github.com/OlBiMaCooJam/heaven-games'>https://github.com/OlBiMaCooJam/heaven-games</a></span>
+        </header>
+        <p>
+            <br/>
+            <h5><u>5인 팀프로젝트, 각종 미니게임(마피아게임, 윷놀이 등)을 할 수 있는 웹 어플리케이션</u></h5><br/>
+            <em>
+                <ul>
+                    <li>- 설계한 API의 공유/문서화 목적으로 Spring REST Docs 적용</li>
+                    <li>- 1개 이상의 클라이언트가 어떻게 실시간으로 상호작용하는지 궁금했었는데 멀티플레이 가능한 게임을 설계/구현해보면서 호기심 해소 및 관련지식 학습</li>
+                    <li>- Http와 WebSocket를 함께 적용해보면서 서로 다른 Protocol의 동작방식에 대해 학습</li>
+                    <li>- 한 웹사이트에서 다양한 게임을 플레이 가능하게 설계하면서 확장에 열려있는 구조에 대해서 고민</li>
+                    <li>- 윷놀이와 관련된 복잡한 규칙을 객체설계로 해결</li>
+                    <li>- 복잡한 윷놀이 게임을 웹환경에서 만들어보면서 웹/객체지향 프로그래밍 기본기 익힘</li>
+                </ul>
+            </em>
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>DI Framework 만들기</h1>
+            <span><time>2019.10.30 ~ 2019.11.21</time></span><br/>
+            <span><a href='https://github.com/kimjungmin-developer/di-framework'>https://github.com/kimjungmin-developer/di-framework</a></span>
+        </header>
+        <p><br/>
+            <h5><u>페어프로그래밍, Spring의 DI기능을 모방하여 의존주입 해주는 Framework 구현</u></h5><br/>
+            <em>
+                <ul>
+                    <li>- Spring과 DI를 체계적으로 공부하기 위해서 그룹스터디 꾸림</li>
+                        <ol>
+                            <li>그룹스터디에서 학습했던 전략패턴/템플릿-콜백패턴에 감명을 받은 후 적극적으로 코드에 활용하여 이해도를 높임</li>
+                        </ol>
+                    </br>
+                    <li>- 사용자의 편의성을 위하여 재귀함수를 이용하여 순환참조 감지 구현</li>
+                        <ol>
+                            <li>위 기능을 구현하면서 서비스의 품질은 개발자의 작은 정성이 모여 완성된다는 것을 배움</li>
+                            <li>언급한 순환참조를 제대로 감지하는지 검증하기 위해 테스트 코드 구현</li>
+                        </ol>
+                    </br>
+                    <li>- 사용자의 편의성을 위하여 생성자주입을 Annotation없이 가능하게 구현</li>
+                        <ol>
+                            <li>스프링이 마법같이 해주던 것을 직접 구현해보면서 생성자 주입의 원리를 파악</li>
+                            <li>원리를 파악하여 Spring/DI Framework에 대한 이해도 증진</li>
+                            <li>스프링에서 제공하는 기능을 최대한 자신만의 방식으로 구현하기 위해 고민하고 실행</li>
+                            <li>새로 배운 개념을 잘적용하고 있는지 확인하기 위해서 다양한 테스트케이스 추가</li>
+                            <li>테스트 케이스를 만들면서 미처 생각하지 못한 버그를 발견하면서 테스트코드의 유용성을 다시 한번 확인</li>
+                        </ol>
+                </ul>
+            </em>
+        </p>
+    </article>
+    <article>
+        <header>
+            <h1>YouTube 클로닝 프로젝트</h1>
+            <span><time>2019.08.13 ~ 2019.09.04</time></span><br/>
+            <span><a href='https://github.com/everyone-driven-development/miniprojects-2019'>https://github.com/everyone-driven-development/miniprojects-2019</a></span>
+        </header>
+        <p><br/>
+            <h5><u>5인 팀프로젝트, YouTube 클로닝 프로젝트</u></h5><br/>
+            <em>
+                <ul>
+                    <li>- 탄탄한 TestCase를 만드는데 집중함</li>
+                        <ol>
+                            <li>3주간 총 113개의 TestCase, TestCoverage: class(100%), method(97%), line(97%)</li>
+                            <li>처음 배운 인수테스트 개념을 이해하기 위해서 직접 만든 모든 Controller method에 인수테스트 적용</li>
+                            <li>계속 실패하는 인수테스트가 발생했어도 포기하지 않고 여러 실험을 통해 결국 성공하게 만들어 팀에서 초기에 잡은 목표를 이루어냄</li>
+                        </ol>
+                    </br>
+                    <li>- Video, User, Subscription Entity에 대한 CRUD 작업</li>
+                        <ol>
+                            <li>처음 배운 JPA개념에 익숙해지기 위해 Entity를 만드는 작업에 참여</li>
+                            <li>User와 User간의 구독관계를 JPA를 활용하여 mapping</li>
+                            <li>JPA의 FetchType Lazy를 사용해보면서 프록시패턴에 대해 학습</li>
+                        </ol>
+                    <!-- </br> -->
+                    <!-- <li>- Backend와 Frontend의 통신을 JSON을 통해서만 하게 구현</li>
+                        <ol>
+                            <li>Frontend 개발을 연습하기 위해서 JSON으로만 통신하기로 결정</li>
+                            <li>Backend와 Frontend의 책임을 확실히 나눔</li>
+                        </ol> -->
+                </ul>
+            </em>
+        </p>
+    </article>
+</section>

@@ -1,0 +1,37 @@
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 4000
+safe: true
+url: "https://kimjungmin-developer.github.io"
+baseurl: "/resume/"
+repository: kimjungmin-developer/resume
+author: JUNGMIN KIM
+
+# edit this section with your information
+# jekyller.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+title: JUNGMIN's résumé
+name: 김정민  
+email: magnatecjm
+email_full: magnatecjm@gmail.com
+website: JUNGMIN's github
+website_full: https://github.com/kimjungmin-developer
+github: kimjungmin-developer
+tel: 010 9749 1774
+tel_full: tel:+821097491774
+# google_maps: 'https://www.google.com/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C+%EC%86%A1%ED%8C%8C%EA%B5%AC/@37.5048039,127.0793596,13z/data=!3m1!4b1!4m5!3m4!1s0x357ca59cd04e4777:0x891d79c846e2cb75!8m2!3d37.5145437!4d127.1065971'
+address:
+  city: Seoul
+  country: Korea
+google_analytics:
+
+# needed for travis-ci build
+exclude: [vendor]
+
+theme: jekyll-theme-architect
+
